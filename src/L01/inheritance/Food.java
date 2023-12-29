@@ -2,8 +2,9 @@ package L01.inheritance;
 
 public class Food {
 
+    static int b=0;
     private double price;
-    private boolean IsVeg;
+     boolean IsVeg;
 
     public double getPrice() {
         return price;
@@ -26,6 +27,7 @@ class Pizza extends Food {
 
     private int numOfSlices;
     public int NumOfSlices;
+    protected int NumOfSlices_;
 
     public int getNumOfSlices() {
         return numOfSlices;

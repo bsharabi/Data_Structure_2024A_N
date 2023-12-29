@@ -3,10 +3,10 @@ package L01;
 public class VarTypes_01 {
     public static void main(String[] args) {
         //----------numeric (מספרים שלמים)---------
-        // 1 byte - from 0 to 255
+        // 1 byte - from 0 to 128
         byte b = 2;
         // 2 byte
-        short sh = 32766;
+        short sh = 32736;
         // 4 byte
         int integer = 12;
         // 8 byte

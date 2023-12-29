@@ -36,6 +36,7 @@ public class MyFirstProj_00 {
 
         System.out.println(MessageFormat.format("mis1= {0}, mis2= {0}",mis1,mis2));
 
+        System.out.println("mis1= "+mis1+", mis2= "+mis2);
 
       /*
                 %c character

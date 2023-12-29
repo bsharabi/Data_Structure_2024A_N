@@ -55,7 +55,7 @@ public class Casting_04 {
 
         //----------------המרה מפורשת------------
         //המרה מפורשת תתבצע כאשר נשים משתנה מטיפוס אחד למשתנה מטיפוס אחר
-        //ויש חשש שנאבד במהלך ההמרה שום מידע
+        //ויש חשש שנאבד במהלך ההמרה מידע
 
 
         //int to byte
@@ -81,6 +81,8 @@ public class Casting_04 {
         f = (float)d;
 
         System.out.println(Integer.toBinaryString(23876));
+        byte temp = (byte)23876;
+        System.out.println( temp);
         System.out.println(Integer.toBinaryString(68));
 
 

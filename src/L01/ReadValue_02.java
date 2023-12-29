@@ -27,5 +27,7 @@ public class ReadValue_02 {
         System.out.println("you said: "+str);
 
 
+
+
     }
 }
