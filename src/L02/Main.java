@@ -59,9 +59,10 @@ public class Main {
 
     // בעבור מחרוזת כללית נסמן את אורך המחרוזת ב-n
 
-    // 4n+4 runtime function
     // b = 4
     // a = 4
+    // an+b
+    // 4n+4 runtime function
     private static boolean SearchD3(String str) {
         int n = str.length(); // 1
         char ch = str.charAt(0); // 1
@@ -154,6 +155,7 @@ public class Main {
     // runtime function is a*n+b
     // 3n+5 runtime function
     // str=Hello
+    // O(n)
     private static boolean improvingSearchD3(String str) {
         str+='D'; // 1
         // str=HelDloD
