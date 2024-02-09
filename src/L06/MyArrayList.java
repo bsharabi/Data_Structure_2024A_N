@@ -12,7 +12,6 @@ public class MyArrayList<E> implements List<E> {
     private Object[] objects;
     private int size;
 
-
     public MyArrayList(int initialCapacity) {
         if (initialCapacity > 0) {
             this.objects = new Object[initialCapacity];
