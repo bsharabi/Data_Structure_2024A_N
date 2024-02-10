@@ -7,7 +7,14 @@ public class Main {
 
     static Random rd = new Random();
     public static void main(String[] args) {
-        Stack<Integer> st = new Stack<>();
+        Stack<Integer> st = new Stack<>(){{
+            for (int i = 0; i < 5; i++) {
+                push(i);
+            }
+        }};
+
+        System.out.println(st);
+
         String s = "1*(2-6)+(6*(2-1))";
         boolean bool;
         System.out.println(s);
@@ -23,6 +30,15 @@ public class Main {
             System.out.println("balance -> "+bool);
             bool = balancedBrackets(s);
             System.out.println("balancedBrackets -> "+bool);
+        }
+
+        MyStack<Integer> mst = new MyStack<>();
+        for (int i = 0; i < 20 ; i++) {
+            mst.push(i);
+            System.out.println("----------------------------------");
+            System.out.println(mst);
+            mst.print();
+            System.out.println("----------------------------------");
         }
 
     }
